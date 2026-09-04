@@ -1,0 +1,993 @@
+question_id,skill,cefr_level,text,level,metric_flags,predicted_level,level_match,level_change_reason,accuracy_pct,clarity_score,construction_score,passage_strength_score,grammar_errors,qc_label,qc_reason,qc_level_only,fairness_flags,fairness_qc_label,fairness_qc_reason,final_decision,final_decision_reason
+9f4b2c22-7f78-43e5-84e6-01d44b283b75,speaking,A2,"Describe a family member or a friend you like.
+
+Topic: Describe a family member or a friend you like.
+
+You should say:
+- Who this person is and how you are related
+- What they do at home or at work
+- A simple time you spent with them and how you felt
+
+You have 1 minute to prepare. Speak for about 1 minute.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+8dae0689-a007-4978-90b2-2887ead00d0d,speaking,B2,"Talk about a renewable energy source that you think is important.
+
+Topic: Describe a renewable energy source you think is important.
+
+You should say:
+- What the energy source is and where it is commonly used
+- How it produces power in simple terms
+- Why you believe it is important and what benefits it brings
+- Any problems or limitations it faces and one way it could be supported or improved
+
+You have 2 minutes to prepare. Speak for up to 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+904b82f4-0592-4ccc-98b7-80c1dbba8ff4,speaking,B1,"Talk about a small action you took to help the environment.
+
+Topic: Describe a small action you took to help the environment.
+
+You should say:
+- When and where this happened (for example at home, at work, or in your neighbourhood).
+- What you did exactly and the steps or materials you used.
+- Why you chose to do this and what effect it had on the environment or on other people, and how you felt.
+
+You have 2 minutes to prepare and up to 1.5 minutes to speak.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+786b5f84-25ed-41ac-8bae-83c54762807b,speaking,A1,"Describe a fruit or a vegetable you like.
+
+Topic: Describe a fruit or a vegetable you like.
+
+You should say:
+- The name and the colour
+- Where you buy it
+- Why you like it and how often you eat it
+
+You have 45 seconds to prepare. Speak for about 45 seconds.",A1,none,A2,False,Changed from A1 to A2: The task uses high-frequency vocabulary and simple grammatical structures to address immediate personal relevance and shopping.,100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+5aaba6ca-8391-4364-8e53-49510e8b1189,speaking,A1,"Talk about your daily routine.
+
+Topic: Describe your daily routine.
+
+You should say:
+- When you wake up.
+- One thing you do in the morning.
+- When you go to bed.
+
+You have 45 seconds to prepare. Speak for about 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+7e1151e2-dcfa-4508-abe0-c9db7d341782,speaking,B1,"Talk about a piece of technology that you use in your daily life and explain why it is important to you.
+
+Topic: Describe a piece of technology you use every day.
+
+You should say:
+- What the device or app is and how you use it each day.
+- How it helps you with work, study or free time.
+- Any problems it causes sometimes or how your use has changed.
+
+You have 2 minutes to prepare. Speak for about 90 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+94243cb1-5c68-4565-a8a4-45fa5e29d5af,speaking,A1,"Describe your home. Say short facts about it.
+
+Topic: Describe your home
+
+You should say:
+- Where you live
+- How many rooms are in your home
+- Who lives with you
+
+Preparation time: 45 seconds. Speaking time: 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+897ac6e7-fe23-4806-9bf6-d744903d0ce7,speaking,C2,"Describe the theory of linguistic relativity and discuss its significance for thought and intercultural understanding.
+
+Topic: Describe the theory of linguistic relativity (the Sapir-Whorf hypothesis).
+
+You should say:
+- Outline the theory concisely, including its historical origins and the central claim about how language and cognition interrelate.
+- Provide one concrete example (empirical or hypothetical) that illustrates how linguistic categories could affect perception, memory or behaviour.
+- Appraise the main empirical evidence and methodological challenges, summarising key supportive findings and prominent counterarguments.
+- Discuss the broader ramifications for education, translation and intercultural communication, and give your own reasoned evaluation of the theory's contemporary relevance.
+
+You have 2 minutes to prepare. Speak for up to 3 minutes 30 seconds.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires the use of highly specialized academic vocabulary and the ability to discuss abstract, complex theoretical concepts and methodological challenges.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+9e06068f-ac82-4cc9-a951-d5a30c5deb13,speaking,C2,"Describe an example, claim or study that illustrates the theory of linguistic relativity and discuss its significance.
+
+Topic: Describe an example or claim that illustrates the theory of linguistic relativity.
+
+You should say:
+- Summarise the specific claim, hypothesis or empirical study you will discuss, making its central contention explicit.
+- Describe a concrete instance - a cross-cultural observation, experiment or personal encounter - that exemplifies the claim.
+- Analyse the strengths and limitations of this instance, referring to methodological issues, alternative explanations and the robustness of the evidence.
+- Assess the wider implications for our understanding of cognition, communication or policy, and state your own considered position.
+
+You have 2 minutes to prepare. Speak for up to 3 minutes.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires advanced academic vocabulary and the ability to perform complex analytical and evaluative tasks on an abstract, technical topic.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+255d20df-9426-45ed-a57f-9e7d1f8a991d,speaking,A2,"Describe a shop you often visit.
+
+Topic: Describe a shop you often visit.
+
+You should say:
+- Where the shop is.
+- What I buy there.
+- Why I like this shop.
+
+You have 60 seconds to prepare. Speak for about 60 seconds.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+caeaa2d9-7262-4d41-8813-706391dba1bf,speaking,B2,"Talk about one change you would like to make or see made to help tackle climate change.
+
+Topic: Describe a change you would like to see to help tackle climate change.
+
+You should say:
+- What the change would be and how it would work
+- Why you think this change is important for the environment
+- Who should be responsible for making the change happen
+- How this change might affect people's daily lives and any possible problems
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+93a22779-eb32-431e-bf56-696bd6bb71e0,speaking,B1,"Talk about a job you would like to have in the future.
+
+Topic: Describe a job you would like to have in the future.
+
+You should say:
+- What the job is and where you would work
+- Why you would like this job
+- What skills or experience you need and how you would get them
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+09996aea-bec8-4a49-9c6e-dcd910df7da2,speaking,C2,"Describe a significant historiographical change - an instance where historians substantially revised their interpretation of a historical event, movement or individual.
+
+Topic: Describe a significant change in the interpretation of a historical event, movement or individual.
+
+You should say:
+- Identify the specific subject and succinctly summarise the earlier, orthodox interpretation that prevailed.
+- Explain the new evidence, methodologies or theoretical perspectives that prompted historians to revise that interpretation.
+- Outline the main points of contention in the ensuing historiographical debate and how different scholars have responded.
+- Evaluate the wider ramifications of the revision for public memory, education or policy, and give your own assessment of its validity.
+
+You have 2 minutes to prepare. Speak for about 3-4 minutes.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires highly specialized academic vocabulary and the ability to synthesize complex, abstract arguments regarding scholarly debates.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+111b6649-e8a7-47f5-a042-5c75bcb3b036,speaking,B2,"Describe a change you would make to help reduce climate change and explain how you would carry it out.
+
+Topic: Describe a change you would make to help reduce climate change.
+
+You should say:
+- What exact change you would introduce (for example, a policy, a community project, or a personal habit)
+- Why you would choose this change and why it matters for the environment or your local area
+- How you would put the change into practice, including who would be involved and what steps are needed
+- What effects you expect the change to have and any challenges or objections you might encounter
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+a5b29517-66fe-43e2-9802-da7c26951f6a,speaking,A2,"Describe a time you went shopping.
+
+Topic: Talk about a time you went shopping.
+
+You should say:
+- Where you went and when
+- What you bought and one detail about it
+- Who you went with and how you felt
+
+You have 1 minute to prepare. Speak for about 1 minute.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+48494dc0-014f-4914-b28d-5c2664e39144,speaking,A2,"Describe a day with weather you remember well.
+
+Topic: Describe a day with weather you remember.
+
+You should say:
+- When and where this day was
+- What the weather was like that day
+- What you did on that day and how you felt
+
+You have 60 seconds to prepare. Speak for about 60 seconds.",A2,none,B1,False,"Changed from A2 to B1: The task requires describing a personal experience and feelings, which aligns with the B1 descriptor for describing experiences and using a range of tenses.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+ef5020e1-587d-4c22-8586-5a9e6abd27f9,speaking,B1,"Describe a trip you remember well.
+
+Topic: Describe a trip you remember well.
+
+You should say:
+- Where you went and when
+- Who you went with and what you did there
+- Why the trip was special and how you felt
+
+You have 2 minutes to prepare. Speak for about 1.5 minutes.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+ee9ab63c-2cb1-487b-921d-af3dccc183d8,speaking,C1,"Describe an idea from the philosophy of language that you find important or thought-provoking.
+
+Topic: An idea from the philosophy of language
+
+You should say:
+- Explain the idea clearly, using precise terminology; clarify its central claim and what it seeks to resolve about language or meaning.
+- Outline where the idea comes from and name a philosopher or school associated with it, summarising any pivotal arguments or texts.
+- Discuss the significance of the idea: how it affects interpretation, communication, or our understanding of truth and reference in social contexts.
+- Provide a concrete example of the idea in practice (everyday speech, media, or technology) and evaluate its strengths and limitations from your perspective.
+
+You have 2 minutes to prepare. Speak for about 2½ minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+fe8a138d-5b39-4e1a-b139-b3f45dfa0bec,speaking,C1,"Describe a recent development or ethical dilemma in neuroscience that you consider significant. Explain its nature, its broader implications, and your personal viewpoint.
+
+Topic: Talk about a recent development or ethical dilemma in neuroscience.
+
+You should say:
+- Describe the development or dilemma clearly - what it involves, how it works or how it emerged.
+- Explain why it is significant, including potential scientific, medical or societal benefits.
+- Discuss the ethical, legal or social concerns it raises and identify who is most affected.
+- Say what regulatory measures, public attitudes or professional responsibilities you think should be implemented and why.
+
+You have 2 minutes to prepare. Speak for about 2½ minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+3147d09b-d32f-4c22-b403-763b55d9274f,speaking,B1,"Talk about a film, TV show or live performance you enjoyed recently.
+
+Topic: Describe a film, TV show or live performance you enjoyed recently.
+
+You should say:
+- What it was and when or where you watched or saw it
+- What happened or what the show or performance was like, and who was involved
+- Why you enjoyed it, how it made you feel, and whether you would recommend it
+
+You have 2 minutes to prepare. Speak for about 90 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+0216ff48-87f0-4262-83e6-3a69ddf3a509,speaking,B1,"Talk about a time when you had to manage or spend money for something important.
+
+Topic: Describe a time when you had to manage or spend money for an important reason.
+
+You should say:
+- What you needed to buy or pay for and who it was for
+- How much it cost and the way you paid for it
+- Why it was important and how you felt about the decision
+
+You have 2 minutes to prepare and 1 minute 30 seconds to speak.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+e19d8848-d428-4e68-ab4b-fb313b8306de,speaking,B1,"Describe a cultural event you attended.
+
+Topic: Describe a cultural event you attended
+
+You should say:
+- When and where the event took place
+- What happened at the event and what you did there
+- Why the event was memorable for you and how it made you feel
+
+You have 2 minutes to prepare. Speak for about 1 minute and 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+2d71f230-cc8b-48b1-b95c-423c143fe1d6,speaking,B1,"Talk about a time when you had to manage your money carefully.
+
+Topic: Describe a time you had to manage money carefully.
+
+You should say:
+- When this happened and why you needed to be careful with money
+- What you did to control your spending or save more
+- How you felt about the situation and what you learnt from it
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+a3095e93-2715-48aa-a109-27fa599532a4,speaking,C2,"Describe an abstract conceptual theory, paradox, or philosophical problem that you find intellectually compelling.
+
+Topic: Describe an abstract conceptual theory or paradox that fascinates you.
+
+You should say:
+- Identify the theory or paradox and succinctly summarise its central claim or thesis.
+- Explain which aspects of it captivate you intellectually and the epistemological or ethical implications it raises.
+- Illustrate a concrete domain (e.g. science, law, public policy, art or personal experience) in which the idea is applied, debated, or has real-world consequences.
+- Critically evaluate principal objections or limitations and suggest how the theory might be refined, reconciled with competing views, or empirically investigated.
+
+You have 2 minutes to prepare and up to 3 minutes to speak.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires highly specialized academic vocabulary (e.g., 'epistemological', 'empirically investigated') and the ability to engage in complex, abstract, and critical discourse.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+be06057e-9b72-4d17-862c-2a9b97499b71,speaking,B2,"Describe an example of economic inequality and discuss its causes, effects and one change you would make to address it.
+
+Topic: A time or place when you noticed economic inequality
+
+You should say:
+- Describe where or when you saw the inequality and who was affected
+- Explain how this inequality changed people's daily lives or opportunities
+- Say what you think causes this kind of inequality in your community or country
+- Describe one change you would make to reduce the inequality and why it might help, including any difficulties you might face
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+97d6dc8f-e5b4-4ef0-a0fa-c1be1339df61,speaking,A2,"Describe one person in your family or a friend.
+
+Topic: Describe a family member or a friend you like.
+
+You should say:
+- Who this person is and how you know them.
+- What they look like.
+- When you see them and why you like them.
+
+You have 60 seconds to prepare. Speak for up to 60 seconds.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+3a40ef41-3f9e-4ed0-bc22-9d698365c525,speaking,A2,"Talk about a food or drink you like.
+
+Topic: Describe a food or drink you like.
+
+You should say:
+- Name the food or drink and say when you eat or drink it.
+- Say what is in it and what it looks like.
+- Say who you eat or drink it with and why you like it.
+
+You have 60 seconds to prepare. Speak for 60 seconds.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+a0d15f28-e4c2-40f1-9f87-9dc9fd3cca24,speaking,A1,"Talk about your pet.
+
+Topic: Describe your pet.
+
+You should say:
+- Say what animal it is.
+- Say its name and age.
+- Say what you do with it every day.
+
+You have 45 seconds to prepare. You have 45 seconds to speak.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+a2ab6dac-1d2a-4543-aa1d-d1626716d5bb,speaking,B1,"Describe a piece of technology you use in your daily life.
+
+Topic: A piece of technology you use every day
+
+You should say:
+- What the device or app is and what it does
+- When you started using it and how often you use it
+- How it helps you in your daily life and one thing you would change about it
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c5f65058-4194-41ec-a24f-9e963a7b1599,speaking,B1,"Describe a decision you made about your education.
+
+Topic: Describe a decision you made about your education.
+
+You should say:
+- What the decision was and when you made it
+- The reasons you chose this option
+- How this decision affected your studies or plans
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+272bc5ad-b6d7-4715-bb26-0dab2ef4d597,speaking,B2,"Describe a change you would make to reduce economic inequality in your country.
+
+Topic: A change you would make to reduce economic inequality
+
+You should say:
+- Describe the specific policy, programme or action you would introduce.
+- Explain why this change is necessary and which people or groups would benefit.
+- Say how the change could be implemented and who would be responsible for it.
+- Describe the likely effects of the change and any possible problems or objections.
+
+You have 2 minutes to prepare. Speak for up to 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+55de4e26-21e9-4e7c-b36f-656cccc3a91f,speaking,B1,"Describe a time when you saved money for something important.
+
+Topic: Describe a time you saved money for something important.
+
+You should say:
+- What you were saving for and why it mattered to you
+- How you saved money and the steps you took
+- How you felt when you reached your goal and what you learned
+
+You have 2 minutes to prepare. Speak for up to 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+de803ebd-7cf6-4cce-bd10-ac72497f1d3a,speaking,B1,"Describe a teacher or a class that helped you learn something important. Explain who they were, what happened, and why it was important to you.
+
+Topic: Describe a teacher or class that helped you learn something important.
+
+You should say:
+- Who the teacher was or what the class was about
+- What the teacher did or an activity that helped you understand
+- Why this help was important and how it changed your learning
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+94162383-5d7d-4cf6-9e95-546da3cc6354,speaking,B1,"Describe a cultural event you attended.
+
+Topic: Describe a cultural event you attended.
+
+You should say:
+- When and where it took place
+- What you saw or did at the event
+- Why it was special to you and whether you would go again
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+9cbe072f-559e-4d7f-afee-dc17f7df14c0,speaking,B1,"Describe a time when a friend or family member helped you in a difficult situation.
+
+Topic: Describe a time someone close to you helped you.
+
+You should say:
+- Who this person is and how you know them.
+- What the problem or situation was and exactly what they did to help.
+- How you felt after their help and why it was important to you.
+
+You have 2 minutes to prepare. Speak for about 1 minute and 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+cc665817-5551-4060-8784-8048b1942978,speaking,B1,"Describe a trip or holiday you enjoyed.
+
+Topic: Describe a trip or holiday you enjoyed.
+
+You should say:
+- Where you went and when the trip happened
+- Who you went with and how you travelled there
+- What you liked most about the trip and why
+
+You have 2 minutes to prepare and about 90 seconds to speak.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+8a79bf00-0180-41fd-81e5-1ec954db49ae,speaking,B1,"Describe a person you enjoy spending time with.
+
+Topic: Describe someone you enjoy spending time with.
+
+You should say:
+- Who this person is and how you know them
+- What you usually do when you are together
+- Why you enjoy spending time with this person
+
+You have 2 minutes to prepare. Speak for about 1 to 2 minutes.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+143169e2-a0c1-477d-98a3-d9d7a7790d20,speaking,B1,"Describe a film or TV show you recently enjoyed and explain why you liked it.
+
+Topic: Describe a film or TV show you recently enjoyed.
+
+You should say:
+- What the film or show was and where you watched it
+- The main story or idea and one thing you liked about it
+- Whether you would recommend it to others and why
+
+You have 2 minutes to prepare. Speak for 1-2 minutes.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+ca1359d1-fd52-47b3-89f2-c38d387dba54,speaking,B1,"Describe a sport or exercise activity you do to keep healthy.
+
+Topic: Describe a sport or exercise activity you do to keep healthy.
+
+You should say:
+- When you started doing it and how often you do it
+- What you do during this activity and where you do it
+- Why you enjoy it and how it helps your health
+
+You have 2 minutes to prepare. Speak for about 90 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+fc309e1a-2326-4a84-92e8-dfcb763d8bd9,speaking,A1,"Talk about your favourite food.
+
+Topic: Describe your favourite food.
+
+You should say:
+- Name the food.
+- Say when you eat it.
+- Say why you like it.
+
+You have 45 seconds to prepare. Speak for about 45 seconds.",A1,none,A2,False,Changed from A1 to A2: The task requires using high-frequency everyday vocabulary and simple grammatical structures to describe personal preferences and immediate relevance.,100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+6f5da107-d094-49d7-88fb-3f7483788a21,speaking,A1,"Describe one member of your family.
+
+Topic: Describe one member of your family.
+
+You should say:
+- Say the name and your relation to them.
+- Say where they live and their job.
+- Say one thing you do with them and how you feel.
+
+You have 45 seconds to prepare and 45 seconds to speak.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+5d620131-2da1-48a8-984d-e49d29a203f3,speaking,A1,"You talk about a colour you like.
+
+Topic: Describe a colour you like.
+
+You should say:
+- What colour do you like?
+- Where do you see this colour?
+- Why do you like this colour?
+
+You have 45 seconds to prepare. You speak for about 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+3717a747-a09f-4960-b878-2f621dfd323c,speaking,A1,"Describe your pet.
+
+Topic: My pet
+
+You should say:
+- What animal it is and its name
+- How it looks (size and colour)
+- What you do with it now (play or feed)
+
+You have 45 seconds to prepare and 45 seconds to speak.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+d09f71d7-0883-4b2a-9b7b-111f85e9cfbc,speaking,C2,"Describe a contemporary scientific controversy, paradox, or contested hypothesis that you can explain and evaluate in depth.
+
+Topic: Describe a contemporary scientific controversy or paradox.
+
+You should say:
+- Summarise the phenomenon or hypothesis, outlining its scientific context and the principal researchers, disciplines or institutions involved.
+- Explain why the issue is contentious or paradoxical, referring to the central empirical findings, methodological disputes or competing theoretical frameworks.
+- Analyse the broader ramifications for scientific practice, public policy or the epistemology of the discipline.
+- Propose plausible avenues for resolving the dispute (experimental designs, theoretical integration or interdisciplinary approaches) and state which resolution you find most compelling, with reasons.
+
+You have 120 seconds to prepare. Speak for about 210 seconds.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires highly specialized academic vocabulary and the ability to construct complex, abstract arguments regarding scientific methodology and epistemology.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+a39aa5e4-03a2-45d6-828c-bea3418b5722,speaking,B1,"Describe a class or lesson you enjoyed at school or college.
+
+Topic: Describe a class or lesson you enjoyed at school or college.
+
+You should say:
+- What the class was about
+- One thing that made the lesson interesting for you
+- How this lesson helped you later
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+f533d0f5-3735-4ffa-afb1-9d65e99782bd,speaking,B1,"Describe an environmental problem in your area.
+
+Topic: Describe an environmental problem in your area.
+
+You should say:
+- What the problem is and when you first noticed it
+- How this problem affects people and nature nearby
+- What could be done to improve the situation and your opinion
+
+You have 2 minutes to prepare and should speak for about 90 seconds.",B1,none,B2,False,"Changed from B1 to B2: The task requires discussing an abstract topic and proposing solutions, which necessitates complex grammatical structures and nuanced vocabulary.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+a6355563-9ebc-403e-8e62-05b8b9aa5e27,speaking,B2,"Describe a change you would make to social media or online platforms.
+
+Topic: A change you would make to social media or online platforms
+
+You should say:
+- The specific change you would introduce to a social media platform
+- Why this change is necessary and the problem it would solve
+- How the change could be put into practice or enforced
+- The possible effects on users and on digital culture in general
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c508c153-d44b-474b-bc9d-d61488c11516,speaking,C2,"Talk about a question or debate from the philosophy of mind that you consider significant.
+
+Topic: Describe a question or debate in the philosophy of mind that you find significant.
+
+You should say:
+- State the precise question or debate (for example: the mind-body problem, the nature of consciousness/qualia, computationalism versus biological naturalism) and define any specialised terms you need.
+- Summarise the principal competing positions and the key reasons philosophers advance each position.
+- Explain why this question matters to you intellectually and what broader consequences it has for ethics, science, or everyday self-understanding.
+- Give a concrete illustration or thought experiment that encapsulates the debate (e.g. Mary's room, the Chinese Room, philosophical zombies) and reflect briefly on plausible avenues for resolving or reframing the issue.
+
+You have 120 seconds to prepare. Speak for about 210 seconds.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires the use of highly specialized academic vocabulary and the ability to discuss complex, abstract philosophical concepts and their implications.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,requires_specialist_knowledge,FAIRNESS_FLAG,the item assumes specialist or cultural knowledge that a general test-taker can't be expected to have; evidence: The task requires specialized academic knowledge of philosophy of mind to answer effectively.,REJECT,REJECT -- content: Predicted CEFR level outside defined range of labeled level.; fairness: The item assumes specialist or cultural knowledge that a general test-taker can't be expected to have. Evidence: The task requires specialized academic knowledge of philosophy of mind to answer effectively.
+1c75f48f-5d09-4932-9479-1a9448a1bac6,speaking,A1,"Talk about your home.
+
+Topic: My home
+
+You should say:
+- Where you live
+- A room you like and why
+- Who lives with you and one thing you do at home
+
+You have 45 seconds to prepare and 45 seconds to speak.",A1,none,A2,False,Changed from A1 to A2: The task focuses on immediate personal relevance and requires the use of everyday vocabulary and simple connectors to explain preferences.,100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+db8a5e0e-5217-433e-b877-74357488b185,speaking,B2,"Describe an example of artificial intelligence and explain its effects on people.
+
+Topic: Describe an example of artificial intelligence that affects people.
+
+You should say:
+- What the artificial intelligence system or application is (give a clear example)
+- Where and when you first saw or used it
+- How it changed people's daily routines, work, or choices
+- Your view of its main benefits and drawbacks and whether you would like it to change
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+29d07d80-848e-419c-9bfd-ca61c67162a2,speaking,B2,"Describe a public policy you would like to change or introduce in your country.
+
+Topic: Describe a public policy you would like to change or introduce.
+
+You should say:
+- What the policy is and which people or area it would affect
+- The main reasons why you think this change or new policy is needed
+- How the change could be carried out and who might be responsible
+- The likely effects on society and any problems or opposition it might face
+
+You have 2 minutes to prepare. Speak for up to 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+5bd5e984-eb72-46ea-9983-d92c05bbc5a7,speaking,A1,"Talk about a greeting you use.
+
+Topic: Describe a greeting you use.
+
+You should say:
+- Who you say hello to.
+- When you say this greeting.
+- What words you say and what you do, for example smile or wave.
+
+You have 45 seconds to prepare. Speak for about 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+1f1f434d-f00a-4fc8-9ae8-9b36336ad391,speaking,A2,"Describe your daily routine.
+
+Topic: Describe your daily routine
+
+You should say:
+- What time you usually get up and go to bed
+- Two or three main things you do in the day (for example, work, study, eat)
+- One thing you like about your routine or one thing you want to change
+
+You have 1 minute to prepare. Speak for about 1 minute.",A2,none,A1,False,"Changed from A2 to A1: The task requires high-frequency vocabulary and the use of the present tense to describe simple, everyday facts.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+3022fb7a-51cb-4fc0-9ba1-abd3a2058bdf,speaking,C1,"Talk about a contemporary geopolitical issue or tension that you consider significant.
+
+Topic: Describe a contemporary geopolitical issue that you believe is significant.
+
+You should say:
+- What the issue is, outlining its origins and the principal state and non-state actors involved
+- How the issue influences regional or global stability, including strategic, economic or humanitarian ramifications
+- Why this issue matters to populations beyond the directly affected countries, considering interdependence and normative implications
+- One or two realistic policy responses you would support, and any potential unintended consequences or trade-offs
+
+You have 2 minutes to prepare. Speak for about 2½ minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+422a1c10-6052-421b-867c-f7c98c1d9841,speaking,C2,"Talk about a historiographical debate or controversy you find intellectually stimulating and analyse its significance for historical interpretation.
+
+Topic: Describe a historiographical debate or controversy that you find intellectually stimulating.
+
+You should say:
+- Outline the debate: its subject, the temporal or geographical context, and the central question at stake.
+- Summarise the principal competing interpretations and the methodological or evidential bases each school of thought invokes.
+- Discuss why the controversy endures and what ramifications it has for broader historical narratives or public memory.
+- State which interpretation you find most persuasive and explain, with reference to specific types of evidence or historiographical reasoning, why you reach that conclusion.
+
+You have 2 minutes to prepare. Speak for about 3-4 minutes.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires highly specialized academic vocabulary and the ability to discuss abstract, complex concepts for academic purposes.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+50f87abe-2536-49ad-ba8a-16d0587f96b6,speaking,B1,"Describe a person you are close to.
+
+Topic: Describe a person you are close to.
+
+You should say:
+- Who this person is and how you know them
+- A time you spent together or a memory you have with them
+- Why they are important to you and how they affect your life
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+76c94df5-6f42-4885-bb58-3676438c6517,speaking,B1,"Talk about a person who helped you make friends or feel more confident with other people.
+
+Topic: Describe a person who helped you make friends
+
+You should say:
+- Who this person is and how you know them
+- What they did to help you meet or talk to new people
+- How this help changed your social life and how you feel now
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+8979072c-5b2c-4848-bdf1-2416b76d122e,speaking,C1,"Describe a contemporary example of postcolonial influence and explain its significance.
+
+Topic: Describe an example of postcolonial influence you have studied or observed.
+
+You should say:
+- What the example is and the colonial context from which it emerged
+- How colonial structures, language or cultural norms continue to operate in this example
+- The ethical, social or political tensions the legacy creates for different communities
+- Your view on ways to address, reinterpret or reconcile this legacy and why
+
+You have 2 minutes to prepare. Speak for about 2½ minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+69e59779-5432-4fd8-b0a0-7358153c6a3c,speaking,A2,"Talk about one day at school that you remember. Say when it was, what happened, and why you remember it.
+
+Topic: A day at school you remember
+
+You should say:
+- When it happened and which class or year you were in
+- Who was with you and what you did that day
+- Why you remember it and how you felt
+
+You have 60 seconds to prepare. Speak for about 60 seconds.",A2,none,B1,False,"Changed from A2 to B1: The task requires describing a personal experience and expressing feelings and reasons, which aligns with B1 descriptors for describing experiences and opinions.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+c1f2a799-2e42-47a3-88a8-a57441d92bd1,speaking,C1,"Describe an idea from the philosophy of language that you find important and explain its significance.
+
+Topic: Describe an idea in the philosophy of language that you find important.
+
+You should say:
+- Outline the idea succinctly - what it claims, its central concepts and the theorists or traditions most associated with it.
+- Explain why you consider this idea significant, and how it alters your understanding of meaning, communication or thought.
+- Give a clear example (from literature, politics, digital media or everyday interaction) that demonstrates the idea in practice.
+- Discuss criticisms or limitations of the idea and what consequences it might have for identity, ethics or public policy.
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,requires_specialist_knowledge,FAIRNESS_FLAG,"the item assumes specialist or cultural knowledge that a general test-taker can't be expected to have; evidence: The prompt requires specific academic knowledge of the philosophy of language to answer, which is specialist knowledge not expected of a general audience.",REJECT,"REJECT -- fairness: The item assumes specialist or cultural knowledge that a general test-taker can't be expected to have. Evidence: The prompt requires specific academic knowledge of the philosophy of language to answer, which is specialist knowledge not expected of a general audience."
+99dd95a8-1d86-47be-b977-2d85070c663d,speaking,A1,"Talk about your daily routine.
+
+Topic: Describe your daily routine.
+
+You should say:
+- The time I wake up.
+- What I do in the morning.
+- What I do in the evening.
+
+You have 45 seconds to prepare. Speak for about 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+19388ff9-4da7-48a0-8a5b-ac44dca62084,speaking,C2,"Talk about a public policy debate or piece of policy discourse you have analysed, and explain how language, framing and argumentative strategies affected its development and outcome.
+
+Topic: Describe a public policy debate or policy discourse you have studied closely.
+
+You should say:
+- Outline the policy issue, its socio-political context and the principal stakeholders involved.
+- Identify and exemplify the principal discursive strategies and rhetorical devices employed by different actors (e.g. framing, metaphors, appeals to authority, data presentation).
+- Analyse how these linguistic and argumentative choices influenced public perception, media coverage and the eventual policy decisions or impasse.
+- Explain the analytical methods or evaluative criteria you used to assess the discourse and suggest implications for more deliberative, transparent policymaking.
+
+You have 2 minutes to prepare. Speak for about 3-4 minutes.",C2,none,C1,False,Changed from C2 to C1: The prompt requires highly specialized academic vocabulary and the ability to perform complex meta-linguistic analysis of abstract socio-political topics.,100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+4278df8d-28c9-4072-8625-4570754b80ba,speaking,B2,"Talk about an example of economic inequality that you have seen, heard about, or learned about.
+
+Topic: Describe an example of economic inequality.
+
+You should say:
+- When and where you noticed or learned about it, and what the situation was
+- The main reasons or causes you think led to this inequality
+- How this inequality affected the lives or opportunities of the people involved
+- One change or policy you would support to reduce the inequality and why it might work
+
+You have 2 minutes to prepare. Speak for up to 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c9687d1f-111e-4c8f-8fa3-57532a32a828,speaking,C2,"Describe an abstract conceptual theory or philosophical idea and explain its significance to you.
+
+Topic: An abstract conceptual theory or philosophical idea that has influenced you
+
+You should say:
+- Summarise the central tenets of the theory: its principal concepts, underlying axioms and the intellectual context or thinker from which it arose.
+- Provide a clear example, thought experiment or concrete instance that operationalises the theory and illustrates how it functions in practice.
+- Explain how engaging with this theory changed your perspective, decision-making or approach to a particular problem, citing specific consequences or actions.
+- Discuss principal criticisms, limitations or competing accounts, and offer a nuanced appraisal of the theory's epistemic and normative value.
+
+You have two minutes to prepare. Speak for two to three minutes.",C2,poor_construction,C1,False,"Changed from C2 to C1: The prompt requires highly specialized academic vocabulary and the ability to construct a nuanced, abstract argument regarding complex philosophical concepts.",100,5,5,5,0,FLAG,"predicted CEFR level outside defined range of labeled level; rule flags: In the 'text' field: sentence construction is malformed -- immediately repeated word: 'you\n\nYou' (text: ""Describe an abstract conceptual theory or philosophical idea and explain its significance to you.\n\nTopic: An abstract conceptual theory or philosophical idea that has influenced you\n\nYou should say:\n- Summarise the central tenets of the theory: its principal concepts, underlying axioms and the intellectual context or thinker from which it arose.\n- Provide a clear example, thought experiment or concrete instance that operationalises the theory and illustrates how it functions in practice.\n- Explain how engaging with this theory changed your perspective, decision-making or approach to a particular problem, citing specific consequences or actions.\n- Discuss principal criticisms, limitations or competing accounts, and offer a nuanced appraisal of the theory's epistemic and normative value.\n\nYou have two minutes to prepare. Speak for two to three minutes."").",False,none,FAIRNESS_PASS,pass,REJECT,"REJECT -- content: Predicted CEFR level outside defined range of labeled level. Rule flags: In the 'text' field: sentence construction is malformed -- immediately repeated word: 'you\n\nYou' (text: ""Describe an abstract conceptual theory or philosophical idea and explain its significance to you.\n\nTopic: An abstract conceptual theory or philosophical idea that has influenced you\n\nYou should say:\n- Summarise the central tenets of the theory: its principal concepts, underlying axioms and the intellectual context or thinker from which it arose.\n- Provide a clear example, thought experiment or concrete instance that operationalises the theory and illustrates how it functions in practice.\n- Explain how engaging with this theory changed your perspective, decision-making or approach to a particular problem, citing specific consequences or actions.\n- Discuss principal criticisms, limitations or competing accounts, and offer a nuanced appraisal of the theory's epistemic and normative value.\n\nYou have two minutes to prepare. Speak for two to three minutes."")."
+8618b151-5194-4ddc-87d4-c4969eb2e989,speaking,A2,"Describe your school and a lesson you like.
+
+Topic: Describe your school and a lesson you like.
+
+You should say:
+- Where your school is and what it is like.
+- A teacher you like and what they do in class.
+- A lesson you like and what you do in that lesson.
+
+You have 60 seconds to prepare and 60 seconds to speak.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+1cfc6ed8-4ba7-4d21-a7d0-cc594f3e6644,speaking,B2,"Describe the topic below.
+
+Topic: Describe a way social media or digital culture has affected people's lives.
+
+You should say:
+- What specific aspect of social media or digital culture you are referring to (for example, communication, privacy, or online identity).
+- Give a clear example of how this aspect has affected you, someone you know, or your local community.
+- Describe one positive effect and one negative effect it has had on people's behaviour or relationships.
+- Explain a change you would make to improve the way people use this technology in the future.
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+ac769af9-de47-4f93-a664-b96162f875eb,speaking,A1,"Talk about one person in your family.
+
+Topic: Describe a person in your family.
+
+You should say:
+- Who they are. Say mother, father, sister, or brother.
+- What they look like. Say hair, eyes, and if they are tall or short.
+- What you do with them. Say one thing you do often together.
+
+You have 45 seconds to prepare. Speak for 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+71c72691-055d-4aa4-ba60-ff96e74e81f3,speaking,B2,"Describe a renewable energy source you think your community should use more.
+
+Topic: Describe a renewable energy source you think your community should use more
+
+You should say:
+- Describe the energy source and briefly explain how it produces power
+- Explain why you believe this source would suit your local area
+- Describe how wider use of this energy would affect daily life or the environment
+- Suggest actions that could encourage people or local authorities to adopt it
+
+You have 2 minutes to prepare and up to 2 minutes to speak.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+141dded6-61f0-4601-acc9-ac49c75662d1,speaking,C2,"Talk about a specific epistemological problem, theory or debate and address the points below.
+
+Topic: Describe a problem, theory or debate in epistemology that you find intellectually compelling.
+
+You should say:
+- Outline succinctly the central thesis or contested claim and the key concepts involved.
+- Explain what aspects of the idea attract your interest, citing precise philosophical terms or distinctions.
+- Summarise major objections or rival accounts and indicate how they bear on the theory's credibility.
+- Evaluate the practical or interdisciplinary ramifications of the epistemic issue for inquiry, policy or everyday reasoning.
+
+You will have 2 minutes to prepare. Speak for about 3-4 minutes.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires the use of highly specialized academic vocabulary and the ability to discuss abstract, complex philosophical concepts and their implications.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,requires_specialist_knowledge,FAIRNESS_FLAG,the item assumes specialist or cultural knowledge that a general test-taker can't be expected to have; evidence: The task requires the speaker to possess specialist academic knowledge of epistemology to successfully complete the prompt.,REJECT,REJECT -- content: Predicted CEFR level outside defined range of labeled level.; fairness: The item assumes specialist or cultural knowledge that a general test-taker can't be expected to have. Evidence: The task requires the speaker to possess specialist academic knowledge of epistemology to successfully complete the prompt.
+2bd241e9-cab6-4f28-b3f4-2d1556dca071,speaking,B2,"Talk about a change you would make to increase the use of renewable energy in your country.
+
+Topic: Describe a change you would make to increase the use of renewable energy in your country.
+
+You should say:
+- What specific change you would introduce
+- Why this change is necessary now
+- How you would put this change into practice
+- What effects you expect it would have on people and the environment
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c0366ec2-e79a-4a7a-8c22-182f1ab738c4,speaking,B2,"Describe a change you would make to a healthcare system in your country or in another country.
+
+Topic: Describe a change you would make to a healthcare system.
+
+You should say:
+- What the change would be
+- Why the current system needs this change (the problems it would solve)
+- How the change could be put into practice, including steps or resources required
+- The possible effects or benefits for patients, staff, and the wider community
+
+You have two minutes to prepare. Speak for about two minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+2740f079-07a4-4642-9442-81d2753e8898,speaking,B1,"Describe a person who is important to you.
+
+Topic: Describe a person who is important in your life.
+
+You should say:
+- Who this person is and how you know them
+- When or where you first met them and how often you see them
+- Why they are important to you and how they affect your life
+
+You have 2 minutes to prepare. Speak for about 90 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+7137e601-1039-4867-84e2-6f6fc64a7a53,speaking,C1,"Describe a corporate governance issue or dilemma that you consider significant.
+
+Topic: Describe a significant corporate governance issue or dilemma.
+
+You should say:
+- Explain the issue or dilemma and the context in which it occurred (industry, company scale, and key stakeholders).
+- Analyse why the situation raised questions about accountability, transparency or conflicts of interest, using precise governance terminology.
+- Describe the consequences for stakeholders and for the organisation's long-term reputation or viability.
+- Propose concrete measures - regulatory, board-level or cultural - that could have prevented the problem or mitigate similar risks in future.
+
+You have 2 minutes to prepare. Speak for about 2 minutes 30 seconds.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+1a1363a3-4074-44fd-b4b3-6ac405d3c0a7,speaking,B1,"Describe a time when you had to make a decision about money.
+
+Topic: Describe a time when you had to make a decision about money.
+
+You should say:
+- What the decision was and how much money was involved
+- Why you made that decision and who helped or influenced you
+- What happened afterwards, whether it was a good decision, and what you learned
+
+You have 2 minutes to prepare. Speak for about 90 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+eaf7925d-a207-4025-bdd1-b0b1bf885aea,speaking,A2,"Describe a time when you used public transport. Talk about the trip and the points below.
+
+Topic: Describe a time you used public transport
+
+You should say:
+- When and where the trip was
+- Who you travelled with
+- One thing you liked or did not like about the trip
+
+You have 60 seconds to prepare. Speak for about 60 seconds.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+175b34a2-86af-4860-9c54-4eb235920f1b,speaking,C2,"Describe an epistemological problem you find intellectually stimulating and explain its wider significance.
+
+Topic: An epistemological question or problem that you find intellectually stimulating
+
+You should say:
+- Define the epistemological question precisely and situate it within a broader debate (for example, skepticism, justification, testimony or epistemic injustice).
+- Explain why this problem captivates you intellectually - which assumptions it challenges and what conceptual puzzles it foregrounds.
+- Summarise two contrasting philosophical responses or schools of thought and the principal arguments each side advances.
+- Discuss the practical or ethical implications of the debate for everyday epistemic practices (such as trusting experts, attributing credibility, or educational norms).
+
+You have 2 minutes to prepare. Speak for up to 3 minutes and 30 seconds.",C2,none,C1,False,"Changed from C2 to C1: The task requires highly specialized academic vocabulary and the ability to articulate complex, abstract philosophical arguments.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,requires_specialist_knowledge,FAIRNESS_FLAG,the item assumes specialist or cultural knowledge that a general test-taker can't be expected to have; evidence: The task requires specialist knowledge of philosophy to define epistemological problems and summarize academic debates.,REJECT,REJECT -- content: Predicted CEFR level outside defined range of labeled level.; fairness: The item assumes specialist or cultural knowledge that a general test-taker can't be expected to have. Evidence: The task requires specialist knowledge of philosophy to define epistemological problems and summarize academic debates.
+4c0e55cb-9493-4883-9fb8-7cb1278f0209,speaking,A1,"Describe your school. Talk about the points on the card.
+
+Topic: Describe your school.
+
+You should say:
+- Where your school is
+- A room you like in the school
+- A teacher or friend you like and why
+
+You have 45 seconds to prepare. Speak for about 45 seconds.",A1,none,A2,False,Changed from A1 to A2: The task requires describing immediate surroundings and personal preferences using high-frequency vocabulary and simple sentence structures.,100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,none,FAIRNESS_PASS,pass,REVIEW,REVIEW -- content: Predicted CEFR level outside defined range of labeled level.
+b4e0f6e3-93b9-4d16-8492-aefb4d0d41cb,speaking,C1,"Describe an example in which principles of behavioural economics influenced a decision or policy. Explain the circumstances, the mechanism involved and the consequences.
+
+Topic: Describe an example where behavioural economics affected a decision or policy
+
+You should say:
+- Outline the context and the people or institutions involved (where and when it happened).
+- Identify the specific behavioural principle or nudge used and explain how it operated (e.g. framing, defaults, loss aversion, social proof).
+- Describe the immediate behavioural change or measurable outcome that resulted.
+- Evaluate the ethical implications and longer-term ramifications, and say whether you think the intervention was justified or how it could have been improved.
+
+You have 2 minutes to prepare. Speak for about 2-2.5 minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+bf2a47d2-4261-4dce-82e5-8c8304a40a2f,speaking,C1,"Describe a literary work you have read that led you to think deeply about its meaning and methods.
+
+Topic: Talk about a literary work that prompted critical reflection
+
+You should say:
+- Name the work and its author, and explain briefly why you chose it
+- Outline one or two central themes or questions the work raises
+- Analyse a specific technique (e.g. narrative voice, structure, imagery) the author uses and its critical effect
+- Say how the work changed or sharpened your perspective on literature or a broader cultural/ethical issue
+
+You have 2 minutes to prepare. Speak for about 2 to 2½ minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+91cfe56e-2c3f-43fb-b8b2-6da3085d8439,speaking,B2,"Describe a person you know who moved to another country and how the move affected their sense of identity.
+
+Topic: Describe a person you know who moved to another country.
+
+You should say:
+- Who the person is and how you know them
+- Why and when they moved to the new country
+- One clear way their identity, habits or beliefs changed after moving
+- How you think the move will affect their future sense of belonging
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+ef228e81-99c2-4c6f-97c5-a24512674898,speaking,C1,"Talk about a concept from the philosophy of language and explain why it matters.
+
+Topic: Describe a concept from the philosophy of language that you find thought-provoking.
+
+You should say:
+- Delineate the concept or theory and summarise its central tenets
+- Explain why this idea interests you and how it reframes the act of communication
+- Provide a concrete example or a brief thought experiment that illustrates the concept
+- Discuss potential implications or criticisms and say whether you find them convincing
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,requires_specialist_knowledge,FAIRNESS_FLAG,the item assumes specialist or cultural knowledge that a general test-taker can't be expected to have; evidence: The item requires specialist academic knowledge of a specific branch of philosophy to answer.,REJECT,REJECT -- fairness: The item assumes specialist or cultural knowledge that a general test-taker can't be expected to have. Evidence: The item requires specialist academic knowledge of a specific branch of philosophy to answer.
+2fb9d962-d8a7-4478-ab8d-f2c5342e33cf,speaking,B2,"Describe a town or city that has changed because of urbanisation.
+
+Topic: Describe a town or city that has changed because of urbanisation.
+
+You should say:
+- Where the place is and what it was like before the changes
+- What developments or new features appeared due to urban growth
+- How these changes affected local people's daily lives and the local environment
+- Whether the changes were mainly positive or negative and one improvement you would make
+
+You have 2 minutes to prepare. Speak for up to 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+346eaadd-243d-4045-9f34-1139becd8f45,speaking,A2,"Talk about a place in your town that you like to visit.
+
+Topic: Describe a place in your town that you like to visit.
+
+You should say:
+- What the place is and where it is
+- When you go there and who you go with
+- Why you like this place
+
+You have one minute to prepare. Speak for about one minute.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+4785730d-00ee-43de-b193-6f7f5ff856bd,speaking,C1,"Describe an academic research methodology that you consider important or interesting.
+
+Topic: Describe an academic research methodology you find significant.
+
+You should say:
+- Name the methodology and outline the kinds of research questions or disciplines in which it is commonly employed.
+- Explain its principal strengths and why it is valuable for producing robust or insightful findings (you may refer to validity, reliability or triangulation).
+- Discuss its principal limitations and any ethical concerns or sources of bias that researchers must consider.
+- Suggest how the methodology could be refined or integrated with other approaches, and indicate the broader implications of its use for knowledge or society.
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+a2b13398-5983-42df-b37b-5f3df080822d,speaking,B2,"Describe a time when immigration influenced your sense of identity.
+
+Topic: Describe a time when immigration influenced your sense of identity.
+
+You should say:
+- When and where the migration happened and who was involved (you or someone you know).
+- The main reasons for the move, for example work, study, family or safety, and any expectations before moving.
+- How the move changed your sense of identity or belonging, mentioning feelings, habits, language or customs.
+- The long-term effects of that experience and any lesson or change in future plans it brought about.
+
+You have 2 minutes to prepare. Speak for about 2 minutes.",B2,none,B2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+57b1f1e2-f8c8-403d-a301-52212dfea00e,speaking,C2,"Talk about a historiographical debate, theory or controversy that you find significant. Explain its main features and why it matters.
+
+Topic: Describe a historiographical debate, theory or controversy you find important.
+
+You should say:
+- Summarise the debate or theoretical framework: its central question, temporal scope and what is at stake (for example causation, periodisation or agency).
+- Identify the principal positions and representative historians or schools, outlining each side's principal claims and counter-claims.
+- Explain the methodological distinctions involved: types of evidence privileged (archival provenance, oral testimony, quantitative indicators), narrative strategies and underlying epistemological assumptions.
+- Assess the debate's wider significance: its implications for contemporary interpretation, public memory or policy, and why you consider it intellectually important.
+
+You have 2 minutes to prepare. Speak for about 3-4 minutes.",C2,none,C1,False,"Changed from C2 to C1: The prompt requires the use of highly specialized academic vocabulary (e.g., 'epistemological', 'historiographical', 'provenance') and the ability to discuss complex, abstract theoretical concepts.",100,5,5,5,0,FLAG,predicted CEFR level outside defined range of labeled level,True,requires_specialist_knowledge,FAIRNESS_FLAG,"the item assumes specialist or cultural knowledge that a general test-taker can't be expected to have; evidence: The task requires specific academic knowledge of historiography, including methodological frameworks, epistemological assumptions, and historical schools of thought.",REJECT,"REJECT -- content: Predicted CEFR level outside defined range of labeled level.; fairness: The item assumes specialist or cultural knowledge that a general test-taker can't be expected to have. Evidence: The task requires specific academic knowledge of historiography, including methodological frameworks, epistemological assumptions, and historical schools of thought."
+d925f34e-8f5f-46b9-ba92-2957bf360c93,speaking,C1,"Describe a situation involving intellectual property law that you consider significant or controversial.
+
+Topic: Describe a situation involving intellectual property law that you consider significant or controversial.
+
+You should say:
+- Outline the circumstances and the stakeholders involved (for example, creators, corporations, consumers or the public domain).
+- Explain the specific intellectual property issues or legal principles at stake (such as copyright infringement, patentability, moral rights, licensing or enforcement difficulties).
+- Describe the consequences or outcomes for those affected and any wider societal, cultural or economic implications.
+- Evaluate whether the law achieved a fair balance between protecting rights and promoting innovation; suggest practical reforms or alternative approaches.
+
+You have 2 minutes to prepare; speak for up to 2 minutes 30 seconds.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c51345b9-7096-4904-89f6-e2162152dc8c,speaking,A2,"Describe a family member or a friend.
+
+Topic: Describe a family member or a friend
+
+You should say:
+- Who this person is and how you know them
+- What they look like and one thing they like to do
+- A time you spent with them and why they are special to you
+
+You have 60 seconds to prepare. Speak for about 60 seconds.",A2,poor_construction,A2,True,pass,100,5,5,5,0,FLAG,rule flags: In the 'text' field: sentence construction is malformed -- immediately repeated word: 'you\n\nYou' (text: 'Describe a family member or a friend.\n\nTopic: Describe a family member or a friend\n\nYou should say:\n- Who this person is and how you know them\n- What they look like and one thing they like to do\n- A time you spent with them and why they are special to you\n\nYou have 60 seconds to prepare. Speak for about 60 seconds.').,False,none,FAIRNESS_PASS,pass,REJECT,REJECT -- content: Rule flags: In the 'text' field: sentence construction is malformed -- immediately repeated word: 'you\n\nYou' (text: 'Describe a family member or a friend.\n\nTopic: Describe a family member or a friend\n\nYou should say:\n- Who this person is and how you know them\n- What they look like and one thing they like to do\n- A time you spent with them and why they are special to you\n\nYou have 60 seconds to prepare. Speak for about 60 seconds.').
+b4da1220-8601-478f-ad86-0277713218b0,speaking,B1,"Talk about a class or course you enjoyed at school or college.
+
+Topic: Describe a class or course you enjoyed at school or college.
+
+You should say:
+- When and where the class took place
+- What the class was about and what you did in it
+- Why you liked this class and how it helped your studies or future plans
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+f0cc6061-8ab0-4ec6-bf33-c4b79eeb72a1,speaking,A1,"Talk about a number you use every day.
+
+Topic: A number you use every day
+
+You should say:
+- Say the number.
+- When do you use it?
+- Why it is important to you.
+
+You have 45 seconds to prepare. Speak for 45 seconds.",A1,none,A1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c1c3434a-b965-4a1b-a80a-9d0964c2db93,speaking,B1,"Describe a piece of technology you use every day. Say what it is and explain why it is useful to you.
+
+Topic: Describe a piece of technology you use every day.
+
+You should say:
+- What the device or tool is and how you use it each day
+- When you started using it and the reason you chose it
+- One good thing about it and one problem it causes, and whether you could live without it
+
+You have 2 minutes to prepare. Speak for about 1 minute 30 seconds.",B1,none,B1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+7b30323a-14cf-4735-95bb-cbe2e788ac1f,speaking,C1,"Describe a work of literature you have read and critically evaluated.
+
+Topic: Describe a literary work you have analysed critically.
+
+You should say:
+- Name the work and its author, and outline the historical or cultural context in which it was written.
+- Explain the central themes and the principal stylistic or narrative techniques the author uses to develop them.
+- Give your critical assessment: discuss the work_x0002_s artistic strengths and any limitations, supporting your views with specific examples.
+- Consider the work_x0002_s wider significance: how it contributes to literary debates, reflects social concerns, or has influenced other writers or readers.
+
+You have 2 minutes to prepare. Speak for about 2-2½ minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+479a06da-1a5b-40e6-9a9c-4c09142b93c8,speaking,C1,"Describe a contemporary bioethical dilemma that you consider significant and explain its implications.
+
+Topic: Describe a contemporary bioethical dilemma you find important.
+
+You should say:
+- Explain the dilemma and the scientific or technological context in which it arises.
+- Identify the conflicting moral principles or interests and the main stakeholders affected.
+- Outline plausible responses or policies, noting potential benefits, risks and trade-offs.
+- Discuss the broader social ramifications and state your considered view on a justified course of action.
+
+You have 2 minutes to prepare and up to 2 minutes 30 seconds to speak.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+44a2cf68-f896-408f-a8a8-4985b70610cd,speaking,C1,"Describe an academic research methodology you have studied or are familiar with.
+
+Topic: An academic research methodology you have studied
+
+You should say:
+- Name the methodology and outline the theoretical paradigm or rationale behind its use.
+- Describe the principal procedures and techniques involved, including sampling and data collection methods.
+- Analyse its principal strengths and limitations in terms of validity, reliability and generalisability.
+- Consider any ethical issues or reflexive concerns and suggest how the methodology might influence future research directions.
+
+You have 2 minutes to prepare. Speak for about 2_x0013_2_x0001_9 minutes.",C1,none,C1,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
+c3929f4c-20b3-449b-9177-39a8b1f98b3c,speaking,A2,"Describe a food or drink you like.
+
+Topic: Describe a food or drink you like.
+
+You should say:
+- What the food or drink is and what is in it
+- Where and when you usually eat or drink it
+- Who you eat or drink it with and why you like it
+
+You have 60 seconds to prepare and 60 seconds to speak.",A2,none,A2,True,pass,100,5,5,5,0,PASS,meets all QC targets,False,none,FAIRNESS_PASS,pass,SELECT,SELECT -- passed
